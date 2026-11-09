@@ -74,7 +74,7 @@ export const Sound = (() => {
 
   async function loadStreamBuffer() {
     if (streamBuf) return streamBuf;
-    const res = await fetch('/Zen/assets/audio/stream.mp3');
+    const res = await fetch('/assets/audio/stream.mp3');
     if (!res.ok) throw new Error('stream ' + res.status);
     streamBuf = await ctx.decodeAudioData(await res.arrayBuffer());
     return streamBuf;

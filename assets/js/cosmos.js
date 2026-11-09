@@ -19,7 +19,7 @@
    barely. Re-derive the timings with docs/track-phases.py.
    ============================================================= */
 
-const ART = '/Zen/assets/images/cosmos/';
+const ART = '/assets/images/cosmos/';
 
 const SPRITES = {
   sun:      'sun.png',
